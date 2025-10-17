@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página Sofia Medina</title>
+  <link rel="stylesheet" href="styles.css">
+
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <h1>Bienvenidos a Mi Sitio</h1>
+
+    <div class="switch-tema">
+      <input type="checkbox" id="toggle-tema">
+      <label for="toggle-tema" class="slider">
+        <i class="fas fa-sun"></i>
+        <i class="fas fa-moon"></i>
+        <span class="bola"></span>
+      </label>
+    </div>
+  </header>
+
+  <section class="sobre-mi">
+    <h2>Sobre mí</h2>
+    <p>Soy Sofía y me dicen chofis. Estudio en la hermosa UTSC</p>
+  </section>
+
+  <section class="servicios">
+    <h2>Lenguajes de programación</h2>
+    <div class="contenedor-servicios">
+      <div class="tarjeta">HTML</div>
+      <div class="tarjeta">CSS</div>
+      <div class="tarjeta">JS</div>
+      <div class="tarjeta">MONGO DB</div>      
+      <div class="tarjeta">PYTHON</div>      
+      <div class="tarjeta">C#</div>     
+    </div>
+  </section>
+
+  <section class="contacto">
+    <h2>Contacto</h2>
+    <form>
+      <input type="text" placeholder="Tu nombre" required>
+      <input type="email" placeholder="Tu correo" required>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+</html>
